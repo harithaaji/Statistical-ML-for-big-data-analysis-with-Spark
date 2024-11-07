@@ -33,9 +33,9 @@ Ensure you have the following installed:
 
 Install required Python libraries:
 
-'''pip install pyspark pandas scikit-learn matplotlib'''
+```pip install pyspark pandas scikit-learn matplotlib```
 
-##Project Workflow
+## Project Workflow
 
 **1. Model Training and Evaluation**
 The model_training.py script trains and evaluates multiple machine learning models on the preprocessed dataset:
@@ -49,14 +49,15 @@ The model_training.py script trains and evaluates multiple machine learning mode
 - Deep Neural Network (DNN) Classifier
 It evaluates the models based on accuracy, precision, recall, AUC score, and generates ROC curves.
 
-'''python src/model_training.py'''
+```python src/model_training.py```
 
 **3. Visualizations**
 The script generates the following visualizations to evaluate model performance:
 
 Bar chart showing accuracy, precision, and recall for each model.
 ROC curves for each model comparing true positive rate vs false positive rate.
-'''python src/visualization.py'''
+
+```python src/visualization.py```
 ## Results
 
 After running the model training and evaluation, the following visualizations will be produced:
