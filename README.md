@@ -62,7 +62,7 @@ ROC curves for each model comparing true positive rate vs false positive rate.
 
 After running the model training and evaluation, the following visualizations will be produced:
 
-![Model_Performance](Model_performance_metrics.png)
+![Model_Performance](model_performance_metrics.png)
 
 Model Performance Metrics (Accuracy, Precision, Recall)
 
